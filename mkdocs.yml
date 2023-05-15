@@ -28,3 +28,7 @@ plugins:
           build: true
           site_name: "中文文档"
       default_language: en
+      nav_translations:
+        zh:
+          Start: 开始
+          About: 关于
