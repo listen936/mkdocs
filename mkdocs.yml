@@ -2,11 +2,29 @@ site_name: My Docs
 nav:
   - Start: index.md
   - About: about.md
+  # - Version:
+  #     - v1:
+  #         - "Quick Start": v1/index.md
+  #     - v2:
+  #         - "Quick Start": v2/index.md
 theme:
-  # name: material
-  name: readthedocs
-# extra:
-#   version:
-#     provider: mike
+  name: material
+# name: readthedocs
+
+extra:
+  version:
+    provider: mike
 plugins:
   - include-markdown
+  - search
+  - i18n:
+      languages:
+        en:
+          name: English
+          build: true
+          site_name: "My Docs"
+        zh:
+          name: 简体中文
+          build: true
+          site_name: "中文文档"
+      default_language: en
