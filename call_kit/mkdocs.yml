@@ -1,0 +1,5 @@
+site_name: call_kit
+
+nav:
+  - Reference: "reference.md"
+  - Changelog: "changelog.md"

@@ -1,0 +1,6 @@
+site_name: video_conference_kit
+
+nav:
+  - Migrating to v2: "migrating.md"
+  - Reference: "reference.md"
+  - Changelog: "changelog.md"
